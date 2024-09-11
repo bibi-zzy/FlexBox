@@ -1,0 +1,163 @@
+.containerUm {
+    display: flex;
+    margin: 0 auto;
+    height:600px;
+    width: 1200px;
+    flex-direction: column;
+}
+
+.containerDois {
+    display: flex;
+    flex: 1;
+    background-color: rgb(139, 0, 113);
+    padding: 10px;
+}
+
+.containerDois h1{
+    color: white;
+}
+
+.containerTres {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+}
+
+.containerMenu {
+    background-color: rgb(237, 100, 168);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerItem ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color: rgb(255, 240, 252);
+    border: 5px solid rgb(255, 240, 251);
+    border-radius: 5px;
+}
+
+.containerItem a{
+    text-decoration: none;
+    color: rgb(139, 0, 95);
+}
+
+.containerAd {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 100, 168);
+    flex: 1;
+}
+
+.containerCinco {
+    display: flex;
+    background-color: rgb(230, 173, 209);
+    flex: 2;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.blocoPai {
+    height: 50vh;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 35px;
+    margin-top: 90px
+}
+
+.blocoUm {
+    height: 20vh;
+    flex: 1;
+    background-color: rgb(238, 144, 144);
+}
+
+.blocoDois {
+    height: 30vh;
+    flex: 1;
+    background-color: rgb(255, 0, 0);
+}
+
+.blocoTres {
+    height: 15vh;
+    flex: 1;
+    background-color: rgb(238, 144, 144);
+}
+
+.blocoQuatro {
+    height: 35vh;
+    flex: 1;
+    background-color: rgb(255, 0, 0);
+}
+
+.blocoCinco {
+    height: 50vh;
+    flex: 1;
+    background-color: rgb(238, 144, 144);
+}
+
+.blocoSeis {
+    height: 20vh;
+    flex: 1;
+    background-color: rgb(255, 0, 4);
+}
+
+.contentUm {
+    display: flex;
+    height: 100px;
+    background-color:rgb(236, 192, 255);
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contentUm ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(204, 20, 255);
+    border: 7px solid rgb(231, 20, 255);
+    border-radius: 5px;
+    color: rgb(248, 182, 255);
+}
+
+.contentUm a{
+    text-decoration: none;
+    color: rgb(253, 107, 248);
+}
+
+.contentDois {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contentTres {
+    display: flex;
+    height: 400px;
+    width: 220px;
+    background-color: rgb(209, 128, 213);
+    flex-direction: column;
+}
+
+.contentTres p{
+    padding: 20px;
+}
+
+.contentTres h1{
+    background-color: rgb(228, 20, 255);
+    border: 20px solid rgb(148, 85, 174);
+    margin-top: -10px;
+    color: rgb(178, 130, 174);
+}
+
+
+
