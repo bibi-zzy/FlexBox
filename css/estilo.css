@@ -84,7 +84,11 @@
 
 }
 .blocoAvo{
+    display: flex;
+    justify-content: center;
     align-items: center;
+
+    
 }
 .blocoPai {
     height: 50vh;
@@ -155,6 +159,7 @@
 .contUm a{
     text-decoration: none;
     color: rgb(253, 107, 248);
+    
 }
 
 .contDois {
@@ -171,6 +176,14 @@
     width: 220px;
     background-color: rgb(209, 128, 213);
     flex-direction: column;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
 }
 
 .contTres p{
