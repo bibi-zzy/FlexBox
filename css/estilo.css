@@ -1,3 +1,25 @@
+.containerPagina ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(255, 20, 161);
+    border: 7px solid rgb(255, 20, 161);
+    border-radius: 5px;
+    color: rgb(247, 125, 214);
+}
+.containerPagina{
+    display: flex;
+    height: 100px;
+    background-color:rgb(247, 125, 214);
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.containerPagina a{
+    text-decoration: none;
+    color: rgb(139, 0, 95);  
+}
 .containerUm {
     display: flex;
     margin: 0 auto;
@@ -40,7 +62,7 @@
     border-radius: 5px;
 }
 
-.containerItem a{
+.containerItem {
     text-decoration: none;
     color: rgb(139, 0, 95);
 }
