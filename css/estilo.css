@@ -9,7 +9,7 @@
 }
 .containerPagina{
     display: flex;
-    height: 100px;
+    height: 60px;
     background-color:rgb(247, 125, 214);
     padding:20px;
     align-items: center;
