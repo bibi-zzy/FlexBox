@@ -83,6 +83,9 @@
     color: rgb(219, 219, 219);
 
 }
+.blocoAvo{
+    align-items: center;
+}
 .blocoPai {
     height: 50vh;
     width: 1200px;
