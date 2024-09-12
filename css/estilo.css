@@ -210,8 +210,7 @@
 
 .contTres p{
     padding: 10px;
-    
-
+    margin: 0;
 }
 
 .contTres h1{
@@ -219,6 +218,7 @@
     border: 20px solid rgb(228, 20, 255);
     margin-top: -10px;
     color: rgb(178, 130, 174);
+    margin: 0;
 }
 
 
